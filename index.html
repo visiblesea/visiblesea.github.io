@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Meta setup - Required for apple device -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Title -->
+	<title>Flickerplate Component</title>
+	<!-- Scripts -->
+	<link href="css/flickerplate.css"  type="text/css" rel="stylesheet">
+	<link href="css/demo.css"  type="text/css" rel="stylesheet">
+
+</head>
+<body>
+     <script src="js/min/hammer-v2.0.3.js"></script>
+     <script src="js/min/flickerplate.js"></script>
+	 <script src="js/min/flickerplate.js"></script>
+        <div class="flicker-example">
+        <ul>
+            <li data-background="63259206_p0.png">
+                <div class="flick-title">Fushimi Inari-taisha</div>
+                <div class="flick-sub-text">p63259206</div>
+            </li>
+            <li data-background="62799720_p0.jpg">
+                <div class="flick-title">ARIA</div>
+                <div class="flick-sub-text">p62799720</div>
+            </li>
+             <li data-background="64710934_p0.jpg">
+                <div class="flick-title">「　ねぇ、」</div>
+                <div class="flick-sub-text">p64710934</div>
+            </li>
+        </ul>
+    </div>
+    <script>
+    new flickerplate({
+        selector: '.flicker-example',
+        	theme: 'white',
+            animation: 'transition-fade',
+            autoFlickDelay: '5'
+        	//dotAlignment: 'right',
+    });
+    </script>
+
+</body>
+</html>
